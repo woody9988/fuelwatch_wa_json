@@ -8,7 +8,7 @@ from datetime import datetime
 def create_app():
     app = Flask(__name__)
 
-    app.config['SECRET_KEY'] = "2652346yregh$@235"
+    app.config['SECRET_KEY'] = "SECRET!"
 
 
     @app.context_processor
